@@ -8,7 +8,20 @@ int main(){
 	char city[50];
 	
 	printf("\t     Desafio de Português     \n\n\n");
-	printf("Digite o nome da cidade -> ");
+	printf("Digite o nome de uma das cidades a seguir:\n\n");
+	
+	printf("\t| Curitiba      |\n");
+	printf("\t| Maringa       |\n");
+	printf("\t| Florianopolis |\n");
+	printf("\t| Chapeco       |\n");
+	printf("\t| Posto Alegre  |\n");
+	printf("\t| Londrina      |\n");
+	printf("\t| Pinhais       |\n");
+	printf("\t| Joinville     |\n");
+	printf("\t| Blumenau      |\n");
+	printf("\t| Gramado       |\n\n");
+	
+	printf("Digite o nome de uma das cidades acima -> ");
 	gets (city);
 	
 	if (strcmp(city,"Curitiba") == 0){
@@ -31,7 +44,7 @@ int main(){
 		return 0;	
 	}
 	
-	if (strcmp(city,"Florianópolis") == 0){
+	if (strcmp(city,"Florianopolis") == 0){
 		printf("\nPertence ao SC, ");
 		printf("É capital");
 		return 0;
